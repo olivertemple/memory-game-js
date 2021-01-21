@@ -3,15 +3,14 @@
     "short_name": "Memory Game",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#db4938",
+    "background_color": "rgb(112, 112, 112)",
+    "theme_color": "#222831",
     "orientation": "portrait-primary",
     "icons":[
         {
-            "src":"/resources/icon512.png",
+            "src":"./resources/icon512.png",
             "type":"image/png",
             "sizes":"512x512"
         }
     ]
 }
-  

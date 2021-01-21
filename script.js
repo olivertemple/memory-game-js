@@ -142,7 +142,8 @@ function addEventListeners(deck){
 
 function start(){
     document.getElementById("popupDiv").setAttribute("style","visibility: hidden")
-    var deck = new Deck();
+    deck = new Deck();
+    deck.shuffle();
     deck.show();
     addEventListeners(deck);
 }
@@ -152,7 +153,7 @@ function start(){
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
         navigator.serviceWorker
-        .register("/serviceWorker.js")
+        .register("./serviceWorker.js")
         .then(res => console.log("service worker registered"))
         .catch(err => console.log("service worker not registered", err))
     })
