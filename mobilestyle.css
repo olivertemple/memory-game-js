@@ -1,0 +1,12 @@
+@media (orientation: portrait) {
+    canvas{
+        margin-left:0.5vh;
+        margin-right:0.5vh;
+        margin-top: 0.5vh;
+        height:150px;
+        width: 150px;
+    }
+    #memoryGame{
+        padding-top: 2vh;
+    }
+}
