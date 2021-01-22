@@ -74,4 +74,5 @@ canvas{
     border-radius:25px;
     height:100px;
     width: 100px;
+    transition-duration: 300ms;
 }

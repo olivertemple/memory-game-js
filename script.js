@@ -77,11 +77,11 @@ class Card{
                                 var canvasContext = canvas.getContext("2d");
                                 canvasContext.clearRect(0,0,300,150);
                                 canvas.setAttribute("style","background-color:darkgrey")
-                                deck.flippedCards = [];
                                 console.log("clear")
                             }, 800);
                             document.getElementById(item.key).setAttribute("style","background-color:red")
                         });
+                        deck.flippedCards = []
                     },100);
                 }
                 
